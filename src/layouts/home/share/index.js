@@ -28,7 +28,7 @@ export const Share = ({ activeSection, setActiveSection }) => {
 						<RWebShare
 							data={{
 								text: "Hey, Check this out!",
-								url: "https://society-nine.vercel.app/",
+								url: "http://joinsociety.org",
 								title: "Society",
 							}}
 						>
