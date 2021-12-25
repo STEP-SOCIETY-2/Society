@@ -28,13 +28,10 @@ export const Form = ({ activeSection, myIdea, setMyIdea, setActiveSection }) => 
 					<p className="text-secondary text-3xl lg:text-6xl font-extrabold tracking-tighter">
 						How are you Society ?
 					</p>
-					<div className="flex flex-col lg:flex-row justify-center space-x-5 font-spacegr text-sm lg:text-base">
+					<div className="flex justify-center space-x-5 font-spacegr text-sm lg:text-base">
 						<span className="text-secondary">
 							Share what you would do on Society.
 						</span>
-						<span className="text-orange flex items-center gap-2 justify-center">
-							<AiOutlineQuestionCircle />
-							<p>Read Stories</p></span>
 					</div>
 				</div>
 				<div className="w-full flex flex-col items-center mt-14 lg:mt-14 space-y-10">
