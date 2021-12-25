@@ -27,7 +27,7 @@ export const Share = ({ activeSection, setActiveSection }) => {
 					<div className="flex flex-col lg:flex-row justify-center items-center lg:space-y-0 space-x-5 space-y-5">
 						<RWebShare
 							data={{
-								text: "Hey, Check this out! \n",
+								text: "Hey, I just signed up to this: \n\n It’s a social network designed to explore your passions.\n\n Check it out here:",
 								url: "http://joinsociety.org",
 								title: "Society",
 							}}
