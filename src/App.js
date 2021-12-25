@@ -45,7 +45,7 @@ function App() {
       validateErr.email = 'enter a valid email';
     }
 
-    if (nickname.length < 4) {
+    if (nickname.length < 2) {
       validateErr.nickname = 'nickname too short';
     }
 
