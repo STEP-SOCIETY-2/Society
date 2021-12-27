@@ -35,7 +35,7 @@ export const Lanuch = ({ activeSection, email, nickname, setNickname, setEmail, 
 					/>
 				</div>
 				<div className="flex flex-col items-center text-center space-y-10">
-					<div className="flex items-center justify-center px-5 lg:px-0 space-x-4">
+					<div className="flex items-center justify-center w-4/5 lg:w-full space-x-4">
 						<span className={`flex-none h-6 w-6 lg:h-7 lg:w-7 border-4 ${test ? "bg-orange" : ""}`} onClick={() => setTest(!test)} />
 						<span>
 							<p className="grow text-lg lg:text-xl font-spacegr text-left">
