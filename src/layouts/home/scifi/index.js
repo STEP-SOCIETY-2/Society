@@ -15,7 +15,7 @@ export const Scifi = ({ activeSection }) => {
 					<img src={StarWars} className=" h-5/6" />
 				</div>
 				<div className="h-full flex items-center justify-center pt-20 lg:pt-0 order-first lg:order-last pb-10 lg:pb-0">
-					<div className="w-4/5 flex-col lg:px-0 lg:w-2/3 space-y-5 lg:space-y-7 text-right lg:text-left">
+					<div className="w-4/5 flex-col lg:px-0 lg:w-3/3 space-y-5 lg:space-y-7 text-right lg:text-left">
 						<p className="font-bold text-lg lg:text-4xl leading-normal">
 							We are Society – Inviting you to join our intergalactic party{" "}
 						</p>

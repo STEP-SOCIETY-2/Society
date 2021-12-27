@@ -28,7 +28,7 @@ function App() {
   const [myIdea, setMyIdea] = useState("");
   const [nickname, setNickname] = useState("");
   const [email, setEmail] = useState("");
-  const [test, setTest] = useState("");
+  const [test, setTest] = useState(false);
   const [error, setError] = useState({});
   const [loading, setLoading] = useState(false);
 
@@ -66,7 +66,7 @@ function App() {
           myIdea: myIdea,
           nickname: nickname,
           email: email,
-          test: test === "YES" ? true : false
+          test: test
         });
 
         setLoading(false);
