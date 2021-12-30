@@ -16,7 +16,7 @@ export const Host = ({ activeSection }) => {
 				<div className="bg-pink lg:pt-32 pt-14 px-14">
 					<div className="pt-10 items-center justify-center space-y-5 lg:space-y-5 flex flex-col">
 						<p className="font-semibold text-lg lg:text-3xl leading-tight">
-							Host a Moment - Share an idea
+							Host an Experience - Share an idea
 						</p>
 						<div className="flex flex-col font-spacegr text-xs lg:text-lg lg:pb-5">
 							<p className="text-center">
@@ -43,7 +43,7 @@ export const Host = ({ activeSection }) => {
 				<div className="bg-yellow lg:pt-32 px-14 bg-opacity-20">
 					<div className="pt-5 lg:pt-10 items-center justify-center h-full space-y-5 lg:space-y-5 flex flex-col">
 						<p className="font-semibold text-lg lg:text-3xl leading-tight">
-							Attend a moment - Be playful
+							Attend an event - Be playful
 						</p>
 						<div className="flex flex-col items-center font-spacegr text-xs lg:text-lg lg:pb-5">
 							<p className="text-center hidden lg:block">
